@@ -17,7 +17,7 @@ def main():
     else:
         for i, article in enumerate(articles, 1):
             print(f"{i:>3}. {article['title']}")
-            print(f"     Score: {article['score']}  URL: {article['url']}")
+            print(f"     スコア: {article['score']}  リンク: {article['url']}")
             print()
 
 

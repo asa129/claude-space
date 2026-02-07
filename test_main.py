@@ -21,7 +21,7 @@ class TestMainOutput:
         assert "Alpha" in out
         assert "2." in out
         assert "Beta" in out
-        assert "Score: 100" in out
+        assert "スコア: 100" in out
 
     @patch("main.fetch_news", return_value=FAKE_ARTICLES)
     def test_json_output(self, mock_fetch, capsys):
